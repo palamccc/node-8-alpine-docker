@@ -5,3 +5,4 @@ RUN apk add --no-cache wget ca-certificates git \
   && tar -xvf docker*.tgz \
   && mv docker/docker /usr/local/bin \
   && rm -rf /tmp/*
+
